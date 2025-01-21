@@ -1,0 +1,19 @@
+﻿@page
+@model WebApplication1.Pages.TypeOneQueriesModel
+@{
+    List<string> currentStateKeys = TempData["CurrentStateKeys"] as List<string>;
+
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generated Queries</title>
+</head>
+<body>
+    <h2>Generated Queries</h2>
+    <pre>
+        @Model.GeneratedQueries
+    </pre>
+</body>
+</html>

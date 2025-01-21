@@ -1,0 +1,21 @@
+﻿@page
+@model WebApplication1.Pages.InputModel
+@{
+    ViewData["Title"] = "Add Triples";
+}
+
+<form method="post">
+    <div>
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="Subject" asp-for="Subject" />
+    </div>
+    <div>
+        <label for="relation">Relation:</label>
+        <input type="text" id="relation" name="Relation" asp-for="Relation" />
+    </div>
+    <div>
+        <label for="obj">Object:</label>
+        <input type="text" id="obj" name="Object" asp-for="Object" />
+    </div>
+    <button type="submit">Add Triple</button>
+</form>

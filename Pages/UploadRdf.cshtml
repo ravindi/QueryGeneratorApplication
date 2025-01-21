@@ -1,0 +1,117 @@
+﻿@page
+@model WebApplication1.Pages.UploadRdfModel
+@{
+    ViewData["Title"] = "Generate Context Queries";
+}
+
+<h2>Upload RDF File</h2>
+
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="RdfFile">Choose RDF file to upload</label>
+        <input type="file" name="RdfFile" />
+    </div>
+    <button type="submit" class="btn btn-primary">Upload</button>
+</form>
+
+@if (Model.Data != null)
+{
+    <h3>Bicycles</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Entity</th>
+                <th>State</th>
+                <th>Relations, Actions, Events</th>
+                <th>Object</th>
+                <th>Perception</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Data.Where(d => d.Entity == "Bicycle"))
+            {
+                <tr>
+                    <td>@item.Entity</td>
+                    <td>@item.State</td>
+                    <td>@string.Join(", ", item.Relation)</td>
+                    <td>@item.Obj</td>
+                    <td>@item.Perception</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h3>Cars</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Entity</th>
+                <th>State</th>
+                <th>Relations, Actions, Events</th>
+                <th>Object</th>
+                <th>Perception</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Data.Where(d => d.Entity == "Car"))
+            {
+                <tr>
+                    <td>@item.Entity</td>
+                    <td>@item.State</td>
+                    <td>@string.Join(", ", item.Relation)</td>
+                    <td>@item.Obj</td>
+                    <td>@item.Perception</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+     <h3>Rider</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Entity</th>
+                <th>Actions, Events</th>
+                <th>Perception</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Data.Where(d => d.Entity == "Rider"))
+            {
+                <tr>
+                    <td>@item.Entity</td>
+                    <td>@string.Join(", ", item.Relation)</td>
+                    <td>@item.Perception</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+     <h3>Driver</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Entity</th>
+                <th>Actions, Events</th>
+                <th>Perception</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Data.Where(d => d.Entity == "Driver"))
+            {
+                <tr>
+                    <td>@item.Entity</td>
+                    <td>@string.Join(", ", item.Relation)</td>
+                    <td>@item.Perception</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+@if (Model.EncodedData != null)
+{
+    <input type="button" id="generateQueries" value="Generate Context Queries" onclick="window.location.href = '@Url.Page("/TypeTwoQueries", new { data = Model.EncodedData })'" />
+}

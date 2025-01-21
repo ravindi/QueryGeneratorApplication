@@ -1,0 +1,68 @@
+﻿@page
+@using System.IO
+
+@model WebApplication1.Pages.SceneGraphModel
+@{
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scene Graph</title>
+</head>
+<body>
+    <h4>Scene Graph Information</h4>
+    <h5>Entities:</h5>
+        <ul>
+            <li>Bicycle</li>
+            <li>Car</li>
+        </ul>
+    @foreach (var kvp in (Dictionary<string, List<string>>)ViewData["GroupedCSVData"])
+    {
+        <h5>@kvp.Key</h5>
+        <ul>
+            @foreach (var value in kvp.Value)
+            {
+                <li>@value</li>
+            }
+        </ul>
+
+    @if (kvp.Key == "Current States")
+    {
+    var extractedEntityAndStates = new List<(string Entity, string State)>();
+
+    foreach (var line in kvp.Value)
+    {
+        // Split the line into parts using '-' as the separator
+        string[] parts = line.Split('-');
+
+        // Check if there are at least three parts
+        if (parts.Length >= 3)
+        {
+            // Extract the first part and remove "State" to get the entity
+            string entity = parts[0].Trim().Replace("State", "");
+
+            // Check if the second part contains "hasValue"
+            if (parts[1].Trim() == "hasValue")
+            {
+                // Extract the value after "hasValue" as the state
+                string state = parts[2].Trim();
+
+                // Add the entity and state to the list
+                extractedEntityAndStates.Add((entity, state));
+            }
+        }
+    }
+    var json = Newtonsoft.Json.JsonConvert.SerializeObject(extractedEntityAndStates);
+    TempData["ExtractedEntityAndStates"] = json;
+
+    }
+}    
+    <input type="button" id='generateQueries' value = "Generate Queries" onclick="DisplayQueries()" >
+    <script type="text/javascript">
+        function DisplayQueries() {
+            window.location.href = '@Url.Page("TypeFiveQueries")'; 
+        }
+    </script>
+</body>
+</html>

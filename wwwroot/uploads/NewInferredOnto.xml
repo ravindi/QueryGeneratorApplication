@@ -1,0 +1,3056 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ardesilva/ontologies/NewInferredOnto#"
+     xml:base="http://www.semanticweb.org/ardesilva/ontologies/NewInferredOnto"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:KnowledgeGraph="http://www.semanticweb.org/ardesilva/KnowledgeGraph#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ardesilva/ontologies/NewInferredOnto"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#defaultGeometry -->
+
+    <owl:ObjectProperty rdf:about="http://www.opengis.net/ont/geosparql#defaultGeometry">
+        <rdfs:subPropertyOf rdf:resource="http://www.opengis.net/ont/geosparql#hasGeometry"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#hasGeometry -->
+
+    <owl:ObjectProperty rdf:about="http://www.opengis.net/ont/geosparql#hasGeometry"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#after -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#after">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#temporalRelations"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#before -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#before">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#temporalRelations"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#during -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#during">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#temporalRelations"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#happensBefore -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#happensBefore">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#temporalRelations"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#has"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#hasRightNeighbourLane -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#hasRightNeighbourLane"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#hasSensor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#hasSensor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#hasState -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#hasState"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#inSituation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#inSituation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#includes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#includes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#isAParticipantOfScene -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#isAParticipantOfScene"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#isAhead -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#isAhead"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#isBehind -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#isBehind"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#isInstalledOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#isInstalledOn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#isOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#isOn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#isWearing -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#isWearing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#observedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#observedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#observes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#observes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#partiallyOverlapping -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#partiallyOverlapping"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#performAction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#performAction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#performEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#performEvent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#temporalRelations -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#temporalRelations"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broadMatch -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#broadMatch">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#broader"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broader -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broaderTransitive -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#semanticRelation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#mappingRelation -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#mappingRelation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#semanticRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#narrowMatch -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrowMatch">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#narrower"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#narrower -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#narrowerTransitive"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#narrowerTransitive -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#semanticRelation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#related -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#related">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#semanticRelation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#relatedMatch -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#relatedMatch">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#semanticRelation -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#semanticRelation"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#topConceptOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#after -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#after">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#before -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#before">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasBeginning -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#hasBeginning">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2006/time#hasTime"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasDuration -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#hasDuration">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2006/time#hasTemporalDuration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasDurationDescription -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#hasDurationDescription">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2006/time#hasTemporalDuration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasEnd -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#hasEnd">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2006/time#hasTime"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasTemporalDuration -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#hasTemporalDuration"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#hasTime"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inDateTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#inDateTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2006/time#inTemporalPosition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inTemporalPosition -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#inTemporalPosition"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inTimePosition -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#inTimePosition">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2006/time#inTemporalPosition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalAfter -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalAfter">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2006/time#after"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2006/time#intervalDisjoint"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalBefore -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalBefore">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2006/time#before"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2006/time#intervalDisjoint"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalDisjoint -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalDisjoint"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalDuring -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalDuring">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2006/time#intervalIn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalFinishes -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalFinishes">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2006/time#intervalIn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalIn"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalStarts -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalStarts">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2006/time#intervalIn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- _TOP_OBJECT_PROPERTY_ -->
+
+    <owl:DatatypeProperty rdf:about="_TOP_OBJECT_PROPERTY_"/>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#asGML -->
+
+    <owl:DatatypeProperty rdf:about="http://www.opengis.net/ont/geosparql#asGML">
+        <rdfs:subPropertyOf rdf:resource="http://www.opengis.net/ont/geosparql#hasSerialization"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#asWKT -->
+
+    <owl:DatatypeProperty rdf:about="http://www.opengis.net/ont/geosparql#asWKT">
+        <rdfs:subPropertyOf rdf:resource="http://www.opengis.net/ont/geosparql#hasSerialization"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#hasSerialization -->
+
+    <owl:DatatypeProperty rdf:about="http://www.opengis.net/ont/geosparql#hasSerialization"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#hasPersonAhead -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#hasPersonAhead">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#longitudinalPositon"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#hasPersonBehind -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#hasPersonBehind">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#longitudinalPositon"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#hasValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#hasValue">
+        <rdfs:subPropertyOf rdf:resource="_TOP_OBJECT_PROPERTY_"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#hasVehicleAhead_1 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#hasVehicleAhead_1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#longitudinalPositon"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#hasVehicleBehind -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#hasVehicleBehind">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#longitudinalPositon"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#hasVehicleToLeft -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#hasVehicleToLeft">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#lateralVehiclePosition"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#hasVehicleToRight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#hasVehicleToRight">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#lateralVehiclePosition"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#isIn -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#isIn">
+        <rdfs:subPropertyOf rdf:resource="_TOP_OBJECT_PROPERTY_"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#lateralVehiclePosition -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#lateralVehiclePosition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#longitudinalPositon -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#longitudinalPositon"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#pedestrianAhead -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#pedestrianAhead">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#presenceOfPedestrain"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#pedestrianBehind -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#pedestrianBehind">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#presenceOfPedestrain"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#presenceOfPedestrain -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#presenceOfPedestrain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#riding -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#riding"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#day -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#day">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#dayOfYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#dayOfYear">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hour -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#hour">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#minute -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#minute">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#month -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#month">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#second -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#second">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#week -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#week">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#year -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#year">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#AccelerateVehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#AccelerateVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Acceleration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Acceleration">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TemporalElements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Afternoon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Afternoon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TimeOfDay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Ahead -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Ahead">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Longitudinal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Animal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Animal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficParticipant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#ApplyBrakes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ApplyBrakes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Approaching -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Approaching">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#ApproachingIntersectionSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ApproachingIntersectionSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadRelatedSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#AtmosphericPressure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#AtmosphericPressure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Weather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#AwarenssSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#AwarenssSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RiderAndDriverSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Backpack -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Backpack">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Behind -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Behind">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Longitudinal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Bicycle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Bicycle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TwoWheeledVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleAction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleAction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Action"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleBrakesCondition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleBrakesCondition">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleLane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleLane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#DrivableAreaElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleSensor">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#BrakePedalPressed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BrakePedalPressed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#BrakePedalReleased -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BrakePedalReleased">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#FixedRoadStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Car -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Car">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#FourWheeledVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#ChangeLane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ChangeLane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#ClearSky -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ClearSky">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Weather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#CloseDoor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CloseDoor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#DriverAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#ConstructionSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ConstructionSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TemporaryRoadStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#CrossingRoadEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CrossingRoadEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#HumanEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#CrossingRoadSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CrossingRoadSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#PedestrianRelatedSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#DecelerateVehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#DecelerateVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#DoorClosingEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#DoorClosingEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#DriverEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#DoorLockStatus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#DoorLockStatus">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#DoorOpeningEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#DoorOpeningEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#DriverEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#DooringAccident -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#DooringAccident">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleRelatedAccidentSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#DrivableAreaElement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#DrivableAreaElement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Lane"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Driver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Driver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#DriverAction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#DriverAction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Action"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#DriverEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#DriverEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Driving -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Driving">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#EarlyMorning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EarlyMorning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TimeOfDay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#EmergencyResponseSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EmergencyResponseSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Situation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#EmergencyStoppingSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EmergencyStoppingSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#StoppingSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#EndTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EndTime">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#Interval"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#EngineStartEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EngineStartEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#EngineStatus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EngineStatus">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvironmentalConditions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvironmentalConditions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvironmentalSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvironmentalSensor">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Equipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Equipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Rider"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Evening -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Evening">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TimeOfDay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Event">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TemporalElements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#EvevningRushHour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EvevningRushHour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TimeOfDay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Fire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Fire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EmergencyResponseSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#FixedRoadStructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#FixedRoadStructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadTopology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#FourWheeledVehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#FourWheeledVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#PrivateVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#GoodsVehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#GoodsVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Green -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Green">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficLightColor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#GreenSignal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#GreenSignal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleTrafficLightSignal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#HeadEndCollision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#HeadEndCollision">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleCollisionSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#HeartRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#HeartRate">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#HeavyRain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#HeavyRain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#WeatherRelatedEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#HeavyRainSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#HeavyRainSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#WeatherRelatedSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Helmet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Helmet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#High -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#High">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#AwarenssSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#HighTraffic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#HighTraffic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#HighTrafficCongestionSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#HighTrafficCongestionSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCongestionSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#HonkHorn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#HonkHorn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleCommunicationAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#HumanEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#HumanEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Humidity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Humidity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Weather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#IncomingAmbulance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#IncomingAmbulance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EmergencyResponseSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#InformationSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#InformationSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#InjuredSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#InjuredSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RiderAndDriverSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Jeep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Jeep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#FourWheeledVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Junction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Junction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadTopology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#KeepLaneSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#KeepLaneSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleRelatedSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#KeepingLane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#KeepingLane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Driving"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Lane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Lane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadTopology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#LateEvevning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#LateEvevning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TimeOfDay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Lateral -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Lateral">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Latitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Latitude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#LocationCoordinates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Left -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Left">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Lateral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Location">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatialElements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#LocationCoordinates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#LocationCoordinates">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Longitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Longitude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#LocationCoordinates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Longitudinal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Longitudinal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Low -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Low">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#AwarenssSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#LowTraffic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#LowTraffic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#LowTrafficCongstionSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#LowTrafficCongstionSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCongestionSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Mild -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Mild">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#InjuredSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Moderate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Moderate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#AwarenssSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#ModerateTraffic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ModerateTraffic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#ModerateTrafficCongestionSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ModerateTrafficCongestionSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCongestionSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#MorningRushHour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#MorningRushHour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TimeOfDay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#MotorBicycle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#MotorBicycle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TwoWheeledVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#MotorLane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#MotorLane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#DrivableAreaElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#MovingObstacleBehindSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#MovingObstacleBehindSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleRelatedSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#MultiVehiclePileUpSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#MultiVehiclePileUpSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleRelatedAccidentSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#ObstacleAheadSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ObstacleAheadSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleRelatedSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#ObstaclesAheadSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ObstaclesAheadSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadRelatedSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#OpenDoor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#OpenDoor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#DriverAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#OvertakingVehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#OvertakingVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleRelatedSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#PanicStopSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#PanicStopSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#StoppingSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Parking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Parking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#ParkingAreaElement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ParkingAreaElement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Lane"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#ParkingLane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ParkingLane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ParkingAreaElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Pedestrian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Pedestrian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#PedestrianAction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#PedestrianAction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Action"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#PedestrianCrossing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#PedestrianCrossing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficInfrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#PedestrianRelatedSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#PedestrianRelatedSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Situation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#PedestrianTrafficLightSignal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#PedestrianTrafficLightSignal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficLight"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#PedestrianVehicleAccident -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#PedestrianVehicleAccident">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#PedestrianRelatedSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficParticipant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Police -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Police">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EmergencyResponseSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#PoorVisibilitySituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#PoorVisibilitySituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#WeatherRelatedSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#PressedBrakes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#PressedBrakes">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#PrivateVehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#PrivateVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#ProximityToClosestPedestrian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ProximityToClosestPedestrian">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#ProximityToClosestVehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ProximityToClosestVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#PublicBus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#PublicBus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#PublicTransportationVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#PublicTransportationVehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#PublicTransportationVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#RainClouds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RainClouds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Weather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Rainfall -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Rainfall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Weather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#RearEndCollision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RearEndCollision">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleCollisionSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Red -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Red">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficLightColor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#RedSignal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RedSignal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleTrafficLightSignal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#RegulatorySign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RegulatorySign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#RespiratoryRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RespiratoryRate">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Rider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Rider">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#RiderAndDriverSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RiderAndDriverSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Situation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Riding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Riding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Right -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Right">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Lateral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadAccident -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadAccident">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadBlock -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadBlock">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadEvent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TemporaryRoadStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadCondition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadCondition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadConstructionSiteSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadConstructionSiteSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadRelatedSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadElement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadElement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadTopology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadRelatedSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadRelatedSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Situation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadSurface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadSurface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadSurfaceElement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadSurfaceElement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadTopology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadTopology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Severe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Severe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#InjuredSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Situation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Situation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#SlipperyRoadSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SlipperyRoadSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadRelatedSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#SmartPhoneSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SmartPhoneSensor">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#SmoothDecelerationSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SmoothDecelerationSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#StoppingSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Snowfall -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Snowfall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#WeatherRelatedEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatialElements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatialElements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Speed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Speed">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#StartTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#StartTime">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#Interval"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Stopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Stopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#StoppingSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#StoppingSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleRelatedSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#StormySituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#StormySituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#WeatherRelatedSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#StreetLight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#StreetLight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#FixedRoadStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#SunnyWeatherSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SunnyWeatherSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#WeatherRelatedSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Weather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#TemporalElements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TemporalElements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#TemporaryRoadStructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TemporaryRoadStructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficInfrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#TimeOfDay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TimeOfDay">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TemporalElements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Timestamp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Timestamp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TemporalElements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCondition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCondition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TemporaryRoadStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCongestion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCongestion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCongestionSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCongestionSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadRelatedSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficInfrastructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficInfrastructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficLight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficLight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficInfrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficLightColor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficLightColor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficLightSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficLightSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Situation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficParticipant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficParticipant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficInfrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficSignalMalfunction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficSignalMalfunction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficLightSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Truck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Truck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#GoodsVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#TurnSignalOff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TurnSignalOff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#TurnSignalOn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TurnSignalOn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Turning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Turning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#TurningVehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TurningVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Driving"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#TwoWheeledVehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TwoWheeledVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#PrivateVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#UnevenRoadConditionSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#UnevenRoadConditionSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadRelatedSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Van -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Van">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#GoodsVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Vehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficParticipant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleAction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleAction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Action"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleBrekaDownSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleBrekaDownSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleRelatedSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleCollisionSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleCollisionSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleRelatedAccidentSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleCommunicationAction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleCommunicationAction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleDoorSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleDoorSensor">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehiclePedestrianAccidentSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehiclePedestrianAccidentSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleRelatedAccidentSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleRelatedAccidentSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleRelatedAccidentSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Situation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleRelatedSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleRelatedSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Situation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleSensor">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleTrafficLightSignal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleTrafficLightSignal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficLight"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Walking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Walking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#PedestrianAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#WalkingEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#WalkingEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#HumanEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#WarningSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#WarningSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Weather -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Weather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvironmentalConditions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#WeatherRelatedEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#WeatherRelatedEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#WeatherRelatedSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#WeatherRelatedSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Situation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#WindSpeed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#WindSpeed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Weather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#WindySituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#WindySituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#WeatherRelatedSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Yellow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Yellow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficLightColor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#pressingTrafficButton -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#pressingTrafficButton">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#PedestrianAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/ontologies/2023/9/untitled-ontology-21#Braking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/ontologies/2023/9/untitled-ontology-21#Braking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/ontologies/2024/2/myLatest#HighSpeedSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/ontologies/2024/2/myLatest#HighSpeedSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleRelatedSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/ontologies/2024/2/myLatest#Intersection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/ontologies/2024/2/myLatest#Intersection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadTopology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/ontologies/2024/2/myLatest#VehicleBicycleCollision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ardesilva/ontologies/2024/2/myLatest#VehicleBicycleCollision">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleCollisionSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Nothing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Nothing">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2006/time#January"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2006/time#DateTimeDescription -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#DateTimeDescription">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#GeneralDateTimeDescription"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#DateTimeInterval -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#DateTimeInterval">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#GeneralDateTimeDescription -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#GeneralDateTimeDescription">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#TemporalPosition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Instant -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#Instant">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Interval -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#Interval">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#January -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#January">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#MonthOfYear -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#MonthOfYear">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#DateTimeDescription"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#ProperInterval -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#ProperInterval">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#Interval"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TemporalEntity -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#TemporalEntity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TemporalElements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TemporalPosition -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#TemporalPosition"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TimePosition -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#TimePosition">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#TemporalPosition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/ObservableProperty -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/ObservableProperty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Sensor -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Approaching389 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Approaching389">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Approaching"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleEvent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Event"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TemporalElements"/>
+        <KnowledgeGraph:during rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#OpenDoor907"/>
+        <KnowledgeGraph:temporalRelations rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#OpenDoor907"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#AtmosphericPressure343 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#AtmosphericPressure343">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#AtmosphericPressure"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvironmentalConditions"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Weather"/>
+        <KnowledgeGraph:observedBy rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvSensor343"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#AtmosphericPressure726 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#AtmosphericPressure726">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#AtmosphericPressure"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvironmentalConditions"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Weather"/>
+        <KnowledgeGraph:observedBy rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvSensor726"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicSensor574 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicSensor574">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleSensor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+        <KnowledgeGraph:isInstalledOn rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Bicycle142"/>
+        <KnowledgeGraph:observes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Location574"/>
+        <KnowledgeGraph:observes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ProximityToClosestPedestrian574"/>
+        <KnowledgeGraph:observes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ProximityToClosestVehicle574"/>
+        <KnowledgeGraph:observes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadCondition574"/>
+        <KnowledgeGraph:observes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Speed574"/>
+        <KnowledgeGraph:observes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCongestion574"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Bicycle142 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Bicycle142">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Bicycle"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#PrivateVehicle"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficParticipant"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TwoWheeledVehicle"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Vehicle"/>
+        <KnowledgeGraph:hasSensor rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicSensor574"/>
+        <KnowledgeGraph:hasState rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#KeepingLane629"/>
+        <KnowledgeGraph:hasState rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Riding980"/>
+        <KnowledgeGraph:inSituation rdf:resource="http://www.semanticweb.org/ardesilva/ontologies/2024/4/ravdVersion1605#DooringHazardSituation"/>
+        <KnowledgeGraph:inSituation rdf:resource="http://www.semanticweb.org/ardesilva/ontologies/2024/4/ravdVersion1605#ModerateTrafficSituation"/>
+        <KnowledgeGraph:inSituation rdf:resource="http://www.semanticweb.org/ardesilva/ontologies/2024/4/ravdVersion1605#ObstacleAheadSituation"/>
+        <KnowledgeGraph:isAParticipantOfScene rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene_9f9dba06254f478ea3accee41c37431d474"/>
+        <KnowledgeGraph:isBehind rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Car323"/>
+        <KnowledgeGraph:isOn rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleLane448"/>
+        <KnowledgeGraph:performAction rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Riding980"/>
+        <KnowledgeGraph:performEvent rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Approaching389"/>
+        <KnowledgeGraph:riding rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</KnowledgeGraph:riding>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleLane448 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleLane448">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleLane"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#DrivableAreaElement"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Lane"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadTopology"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+        <KnowledgeGraph:hasRightNeighbourLane rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ParkingLane33"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Car323 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Car323">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Car"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#FourWheeledVehicle"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#PrivateVehicle"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficParticipant"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Vehicle"/>
+        <KnowledgeGraph:has rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Driver251"/>
+        <KnowledgeGraph:hasSensor rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehSensor267"/>
+        <KnowledgeGraph:hasState rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Parking941"/>
+        <KnowledgeGraph:inSituation rdf:resource="http://www.semanticweb.org/ardesilva/ontologies/2024/4/ravdVersion1605#MovingVehicleBehindSituation"/>
+        <KnowledgeGraph:isAParticipantOfScene rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene_9f9dba06254f478ea3accee41c37431d474"/>
+        <KnowledgeGraph:isAhead rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Bicycle142"/>
+        <KnowledgeGraph:isOn rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ParkingLane33"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Driver251 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Driver251">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Driver"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficParticipant"/>
+        <KnowledgeGraph:isAParticipantOfScene rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene_9f9dba06254f478ea3accee41c37431d474"/>
+        <KnowledgeGraph:performAction rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#OpenDoor907"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvSensor343 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvSensor343">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvironmentalSensor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+        <KnowledgeGraph:observes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#AtmosphericPressure343"/>
+        <KnowledgeGraph:observes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Humidity343"/>
+        <KnowledgeGraph:observes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Temperature343"/>
+        <KnowledgeGraph:observes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#WindSpeed343"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvSensor726 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvSensor726">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvironmentalSensor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+        <KnowledgeGraph:observes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#AtmosphericPressure726"/>
+        <KnowledgeGraph:observes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Humidity726"/>
+        <KnowledgeGraph:observes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Temperature726"/>
+        <KnowledgeGraph:observes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#WindSpeed726"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#HeartRate190 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#HeartRate190">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#HeartRate"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <KnowledgeGraph:observedBy rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SmartPhoneSensor190"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Helmet346 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Helmet346">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Equipment"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Helmet"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Rider"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficParticipant"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Humidity343 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Humidity343">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvironmentalConditions"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Humidity"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Weather"/>
+        <KnowledgeGraph:observedBy rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvSensor343"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Humidity726 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Humidity726">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvironmentalConditions"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Humidity"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Weather"/>
+        <KnowledgeGraph:observedBy rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvSensor726"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#KeepingLane629 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#KeepingLane629">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Action"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Driving"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#KeepingLane"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TemporalElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleAction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Location267 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Location267">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Location"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatialElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <KnowledgeGraph:observedBy rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehSensor267"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Location574 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Location574">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Location"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatialElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <KnowledgeGraph:observedBy rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicSensor574"/>
+        <KnowledgeGraph:partiallyOverlapping rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Location267"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#OpenDoor907 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#OpenDoor907">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Action"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#DriverAction"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#OpenDoor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TemporalElements"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Parking941 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Parking941">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Action"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Parking"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TemporalElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleAction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#ParkingLane33 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ParkingLane33">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Lane"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ParkingAreaElement"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ParkingLane"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadTopology"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#ProximityToClosestPedestrian267 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ProximityToClosestPedestrian267">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ProximityToClosestPedestrian"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <KnowledgeGraph:observedBy rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehSensor267"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#ProximityToClosestPedestrian574 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ProximityToClosestPedestrian574">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ProximityToClosestPedestrian"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <KnowledgeGraph:observedBy rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicSensor574"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#ProximityToClosestVehicle267 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ProximityToClosestVehicle267">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ProximityToClosestVehicle"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <KnowledgeGraph:observedBy rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehSensor267"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#ProximityToClosestVehicle574 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ProximityToClosestVehicle574">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ProximityToClosestVehicle"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <KnowledgeGraph:observedBy rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicSensor574"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#RespiratoryRate190 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RespiratoryRate190">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RespiratoryRate"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <KnowledgeGraph:observedBy rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SmartPhoneSensor190"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Rider632 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Rider632">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Rider"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficParticipant"/>
+        <KnowledgeGraph:hasSensor rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SmartPhoneSensor190"/>
+        <KnowledgeGraph:isAParticipantOfScene rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene_9f9dba06254f478ea3accee41c37431d474"/>
+        <KnowledgeGraph:isWearing rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Helmet346"/>
+        <KnowledgeGraph:performAction rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Riding980"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Riding980 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Riding980">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Action"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicycleAction"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Riding"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TemporalElements"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadCondition267 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadCondition267">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadCondition"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <KnowledgeGraph:observedBy rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehSensor267"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadCondition574 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadCondition574">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadCondition"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <KnowledgeGraph:observedBy rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicSensor574"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene_9f9dba06254f478ea3accee41c37431d474 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene_9f9dba06254f478ea3accee41c37431d474">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+        <KnowledgeGraph:includes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Bicycle142"/>
+        <KnowledgeGraph:includes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Car323"/>
+        <KnowledgeGraph:includes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Driver251"/>
+        <KnowledgeGraph:includes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Rider632"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#SmartPhoneSensor190 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SmartPhoneSensor190">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SmartPhoneSensor"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+        <KnowledgeGraph:observes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#HeartRate190"/>
+        <KnowledgeGraph:observes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RespiratoryRate190"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Speed267 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Speed267">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Speed"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <KnowledgeGraph:observedBy rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehSensor267"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Speed574 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Speed574">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Speed"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <KnowledgeGraph:observedBy rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicSensor574"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Temperature343 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Temperature343">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvironmentalConditions"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Temperature"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Weather"/>
+        <KnowledgeGraph:observedBy rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvSensor343"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#Temperature726 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Temperature726">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvironmentalConditions"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Temperature"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Weather"/>
+        <KnowledgeGraph:observedBy rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvSensor726"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCongestion267 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCongestion267">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Event"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadEvent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TemporalElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCongestion"/>
+        <KnowledgeGraph:observedBy rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehSensor267"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCongestion574 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCongestion574">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Event"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadEvent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TemporalElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCongestion"/>
+        <KnowledgeGraph:hasValue rdf:resource="http://www.semanticweb.org/ardesilva/ontologies/2024/4/ravdVersion1605#ModerateTraffic"/>
+        <KnowledgeGraph:observedBy rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#BicSensor574"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehSensor267 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehSensor267">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleSensor"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+        <KnowledgeGraph:isInstalledOn rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Car323"/>
+        <KnowledgeGraph:observes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Location267"/>
+        <KnowledgeGraph:observes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ProximityToClosestPedestrian267"/>
+        <KnowledgeGraph:observes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ProximityToClosestVehicle267"/>
+        <KnowledgeGraph:observes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadCondition267"/>
+        <KnowledgeGraph:observes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Speed267"/>
+        <KnowledgeGraph:observes rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCongestion267"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#WindSpeed343 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#WindSpeed343">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvironmentalConditions"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Weather"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#WindSpeed"/>
+        <KnowledgeGraph:observedBy rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvSensor343"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/KnowledgeGraph#WindSpeed726 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/KnowledgeGraph#WindSpeed726">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#CoreLayers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvironmentalConditions"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Scene"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Weather"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#WindSpeed"/>
+        <KnowledgeGraph:observedBy rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#EnvSensor726"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/ontologies/2024/4/ravdVersion1605#DooringHazardSituation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/ontologies/2024/4/ravdVersion1605#DooringHazardSituation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#DooringAccident"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Situation"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleRelatedAccidentSituation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/ontologies/2024/4/ravdVersion1605#ModerateTraffic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/ontologies/2024/4/ravdVersion1605#ModerateTraffic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ContextualElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ModerateTraffic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#SpatioTemporalElements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCondition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/ontologies/2024/4/ravdVersion1605#ModerateTrafficSituation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/ontologies/2024/4/ravdVersion1605#ModerateTrafficSituation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ModerateTrafficCongestionSituation"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#RoadRelatedSituation"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Situation"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#TrafficCongestionSituation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/ontologies/2024/4/ravdVersion1605#MovingVehicleBehindSituation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/ontologies/2024/4/ravdVersion1605#MovingVehicleBehindSituation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#MovingObstacleBehindSituation"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Situation"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleRelatedSituation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ardesilva/ontologies/2024/4/ravdVersion1605#ObstacleAheadSituation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ardesilva/ontologies/2024/4/ravdVersion1605#ObstacleAheadSituation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#ObstacleAheadSituation"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#Situation"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ardesilva/KnowledgeGraph#VehicleRelatedSituation"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

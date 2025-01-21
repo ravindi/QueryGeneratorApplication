@@ -1,0 +1,12 @@
+[
+  {
+    "Entity": "Bicycle",
+    "State": "Riding",
+    "Relations": [ "ahead", "overlaps", "approaching" ]
+  },
+  {
+    "Entity": "Car",
+    "State": "Parking",
+    "Relations": [ "behind", "openingDoor" ]
+  }
+]
